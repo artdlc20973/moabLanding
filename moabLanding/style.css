@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1434730737257-3e97ad16f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80')no-repeat center center fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.logo {
+  color: #94f8ff;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #94f8ff;
+  text-decoration: none;
+  padding: 1.2em;
+  font-size: 1.1em;
+}
+
+.nav li a:hover {
+  color: #fffd8e;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4em;
+}
+
+h1 {
+  color: #fffd8e;
+  padding-bottom: 0;
+}
+
+p {
+  color: #fffd8e3f;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+p:hover {
+  color: #94f8ff;
+  transition: color .5s ease-in-out;
+}
+
+button {
+  background: #fffd8e56;
+  color: #fff;
+  border: none;
+  font-size: 1.4em;
+  padding: 12px 40px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  transition: all .5s ease-in;
+}
+
+button:hover {
+  background: #94f8ff59;
+  transform: translateY(8px);
+  border-radius: 25px;
+}
